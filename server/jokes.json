@@ -181,19 +181,19 @@
     },
     {
       "id": 1686521618214,
-      "Body": "Aaaa",
-      "Title": "Aaaa",
-      "Views": 31,
-      "Author": "Saa",
-      "CreatedAt": 1688598456356
+      "body": "Aaaa",
+      "title": "Aaaa",
+      "views": 31,
+      "author": "Saa",
+      "createdAt": 1688598456356
     },
     {
       "id": 8,
-      "Body": "Geee",
-      "Title": "Tom",
-      "Views": 35,
-      "Author": "test@gmail.com",
-      "CreatedAt": "2023-07-06T06:17:19.105Z"
+      "body": "Geee",
+      "title": "Tom",
+      "views": 35,
+      "author": "test@gmail.com",
+      "createdAt": "2023-07-06T06:17:19.105Z"
     },
     {
       "id": 1686521618216,
@@ -393,19 +393,19 @@
       },
       {
         "id": 1686521618214,
-        "Body": "Aaaa",
-        "Title": "Aaaa",
-        "Views": 31,
-        "Author": "Saa",
-        "CreatedAt": 1688598456356
+        "body": "Aaaa",
+        "title": "Aaaa",
+        "views": 31,
+        "author": "Saa",
+        "createdAt": 1688598456356
       },
       {
         "id": 8,
-        "Body": "Geee",
-        "Title": "Tom",
-        "Views": 35,
-        "Author": "test@gmail.com",
-        "CreatedAt": "2023-07-06T06:17:19.105Z"
+        "body": "Geee",
+        "title": "Tom",
+        "views": 35,
+        "author": "test@gmail.com",
+        "createdAt": "2023-07-06T06:17:19.105Z"
       },
       {
         "id": 1686521618216,
