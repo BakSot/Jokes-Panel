@@ -60,8 +60,8 @@ In the views column every number has to be one of the following colors following
 ### Functionality
 
 1. Title should be a link leading to another page where the user should have a prefilled form with all the fields
-   and a button to submit any changes for the specific item. There should be also a close button to go back if the user
-   does not want to make any changes as well as a delete button to delete the item.
+   and a button to submit any changes for the specific item. There should be also a "close" button to go back if the user
+   does not want to make any changes, as well as a "delete" button to delete the item.
 2. In the home page it should be also a "add new joke" button that leads to the same form as above but with all the form
    fields empty.
 3. A dark mode toggle should switch background and text color.

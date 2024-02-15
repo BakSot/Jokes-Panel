@@ -3,7 +3,7 @@ const jokes = require("../jokes.json");
 const getJokes = async (req, res, next) => {
   try {
     res.status(200).json(jokes);
-    console.log(jokes)
+    console.log(jokes);
   } catch (error) {
     console.log(error);
   }
@@ -31,6 +31,27 @@ const updateJokes = async (req, res, next) => {
   }
 };
 
+const postJoke = async (req, res, next) => {
+  try {
+    const { id, name, email, phone, address, photo, company } = req.body;
+    res.status(200).json({ id, name, email, phone, address, photo, company });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+const deleteAJoke = async (req, res, next) => {
+  try {
+    const { uid } = req.params;
+    const itemToDelete = jokes.jokes.find((d) => (d.id === u) === uid);
+    console.log("itemToDelete", itemToDelete);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 exports.getJokes = getJokes;
 exports.getJoke = getJoke;
 exports.updateJokes = updateJokes;
+exports.postJoke = postJoke;
+exports.deleteAJoke = deleteAJoke;
