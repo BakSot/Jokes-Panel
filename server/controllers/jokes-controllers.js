@@ -41,10 +41,14 @@ const postJoke = async (req, res, next) => {
 };
 
 const deleteAJoke = async (req, res, next) => {
+  const { uid } = req.params;
+  const itemToDelete = jokes.jokes.find((d) => d.id === uid);
+  console.log("uid", uid);
   try {
-    const { uid } = req.params;
-    const itemToDelete = jokes.jokes.find((d) => (d.id === u) === uid);
-    console.log("itemToDelete", itemToDelete);
+    res.status(200).json({
+      status: "success",
+      itemToDelete: itemToDelete,
+    });
   } catch (error) {
     console.log(error);
   }
